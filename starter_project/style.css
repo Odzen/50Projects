@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* This slector allows to apply on everything */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex; /* Flex box, to make an alligment*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* vh means that takes the entiry high of the browser*/
+  overflow: hidden; /*To not show scroller by default*/
+  margin: 0;
+}
